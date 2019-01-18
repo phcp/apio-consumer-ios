@@ -14,7 +14,16 @@
 		239BFB9C21C8183900C7ED7C /* response-collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 239BFB9B21C8183900C7ED7C /* response-collection.json */; };
 		239BFB9E21C8198200C7ED7C /* response-item.json in Resources */ = {isa = PBXBuildFile; fileRef = 239BFB9D21C8198200C7ED7C /* response-item.json */; };
 		239BFBA021C81A1600C7ED7C /* response-item-with-embbeded-structure.json in Resources */ = {isa = PBXBuildFile; fileRef = 239BFB9F21C81A1600C7ED7C /* response-item-with-embbeded-structure.json */; };
+		3A13EF1A21F10F1400317D69 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13EF1921F10F1400317D69 /* DataExtension.swift */; };
 		3A13EF1D21F1101800317D69 /* ApioError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13EF1C21F1101800317D69 /* ApioError.swift */; };
+		3AB9C01421F0E29D006B73CA /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9C01321F0E29D006B73CA /* HttpClient.swift */; };
+		3AB9C01621F0F158006B73CA /* ApioConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9C01521F0F158006B73CA /* ApioConsumer.swift */; };
+		3AE6300721F21B2400D87EF5 /* HttpClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6300621F21B2400D87EF5 /* HttpClientTest.swift */; };
+		3AE6300B21F2590C00D87EF5 /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6300A21F2590C00D87EF5 /* RequestConfiguration.swift */; };
+		3AE6300C21F25A7600D87EF5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6300821F258E400D87EF5 /* Result.swift */; };
+		3AE6300E21F262D100D87EF5 /* RequestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6300D21F262D100D87EF5 /* RequestUtil.swift */; };
+		3AE6301021F2762600D87EF5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6300F21F2762600D87EF5 /* StringExtension.swift */; };
+		3AE6301221F2782400D87EF5 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6301121F2782400D87EF5 /* DictionaryExtension.swift */; };
 		43A7DACA92838273047A95BD /* Pods_apio_consumer_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C2EAAA4FE30D5199080703 /* Pods_apio_consumer_ios.framework */; };
 		4A5530CF20DC3B8400E3CEBC /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5530CE20DC3B8400E3CEBC /* Thing.swift */; };
 		4A5530D120DC3D1900E3CEBC /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5530D020DC3D1900E3CEBC /* Relation.swift */; };
@@ -56,7 +65,16 @@
 		239BFB9B21C8183900C7ED7C /* response-collection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "response-collection.json"; sourceTree = "<group>"; };
 		239BFB9D21C8198200C7ED7C /* response-item.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "response-item.json"; sourceTree = "<group>"; };
 		239BFB9F21C81A1600C7ED7C /* response-item-with-embbeded-structure.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "response-item-with-embbeded-structure.json"; sourceTree = "<group>"; };
+		3A13EF1921F10F1400317D69 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 		3A13EF1C21F1101800317D69 /* ApioError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApioError.swift; sourceTree = "<group>"; };
+		3AB9C01321F0E29D006B73CA /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		3AB9C01521F0F158006B73CA /* ApioConsumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApioConsumer.swift; sourceTree = "<group>"; };
+		3AE6300621F21B2400D87EF5 /* HttpClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTest.swift; sourceTree = "<group>"; };
+		3AE6300821F258E400D87EF5 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		3AE6300A21F2590C00D87EF5 /* RequestConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestConfiguration.swift; sourceTree = "<group>"; };
+		3AE6300D21F262D100D87EF5 /* RequestUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestUtil.swift; sourceTree = "<group>"; };
+		3AE6300F21F2762600D87EF5 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		3AE6301121F2782400D87EF5 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		3E18C9852648307943C82743 /* Pods-apio-consumer-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-apio-consumer-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-apio-consumer-ios/Pods-apio-consumer-ios.release.xcconfig"; sourceTree = "<group>"; };
 		4A5530C120DC2DD300E3CEBC /* libapio-consumer-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libapio-consumer-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5530CD20DC3B8400E3CEBC /* apio-consumer-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "apio-consumer-ios-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -92,10 +110,11 @@
 		1E49F77B20E577E100456C57 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4A1AD13020F40219008BDF9E /* Resources */,
+				1E49F77E20E577E100456C57 /* Info.plist */,
 				239BFB9921C814CA00C7ED7C /* BaseTest.swift */,
 				1E49F77C20E577E100456C57 /* Tests.swift */,
-				1E49F77E20E577E100456C57 /* Info.plist */,
+				3AE6300521F218F100D87EF5 /* Client */,
+				4A1AD13020F40219008BDF9E /* Resources */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -104,8 +123,19 @@
 			isa = PBXGroup;
 			children = (
 				1E49F78520E57BF000456C57 /* JsonLDParser.swift */,
+				3AE6300D21F262D100D87EF5 /* RequestUtil.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		3A13EF1721F10EF500317D69 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3A13EF1921F10F1400317D69 /* DataExtension.swift */,
+				3AE6300F21F2762600D87EF5 /* StringExtension.swift */,
+				3AE6301121F2782400D87EF5 /* DictionaryExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		3A13EF1B21F1100900317D69 /* Error */ = {
@@ -114,6 +144,32 @@
 				3A13EF1C21F1101800317D69 /* ApioError.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		3AB9C01221F0E278006B73CA /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9C01321F0E29D006B73CA /* HttpClient.swift */,
+				3AE6300821F258E400D87EF5 /* Result.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		3AB9C01721F0F167006B73CA /* Consumer */ = {
+			isa = PBXGroup;
+			children = (
+				3AB9C01521F0F158006B73CA /* ApioConsumer.swift */,
+				3AE6300A21F2590C00D87EF5 /* RequestConfiguration.swift */,
+			);
+			path = Consumer;
+			sourceTree = "<group>";
+		};
+		3AE6300521F218F100D87EF5 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6300621F21B2400D87EF5 /* HttpClientTest.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 		4A1AD13020F40219008BDF9E /* Resources */ = {
@@ -149,10 +205,13 @@
 		4A5530CB20DC2E5D00E3CEBC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3A13EF1B21F1100900317D69 /* Error */,
-				1E566DEF20FE6B3200C0E127 /* Util */,
-				4A5530CC20DC3B0C00E3CEBC /* Model */,
 				4A5530CD20DC3B8400E3CEBC /* apio-consumer-ios-Bridging-Header.h */,
+				3AB9C01221F0E278006B73CA /* Client */,
+				3AB9C01721F0F167006B73CA /* Consumer */,
+				3A13EF1B21F1100900317D69 /* Error */,
+				3A13EF1721F10EF500317D69 /* Extension */,
+				4A5530CC20DC3B0C00E3CEBC /* Model */,
+				1E566DEF20FE6B3200C0E127 /* Util */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -308,6 +367,7 @@
 			files = (
 				239BFB9A21C814CA00C7ED7C /* BaseTest.swift in Sources */,
 				1E49F77D20E577E100456C57 /* Tests.swift in Sources */,
+				3AE6300721F21B2400D87EF5 /* HttpClientTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,12 +377,20 @@
 			files = (
 				4A5530D720DC3F8F00E3CEBC /* Property.swift in Sources */,
 				1E7AC1CE20EE85D200CD3060 /* JsonLDParser.swift in Sources */,
+				3AE6301021F2762600D87EF5 /* StringExtension.swift in Sources */,
+				3AB9C01421F0E29D006B73CA /* HttpClient.swift in Sources */,
+				3AB9C01621F0F158006B73CA /* ApioConsumer.swift in Sources */,
 				3A13EF1D21F1101800317D69 /* ApioError.swift in Sources */,
 				4A5530CF20DC3B8400E3CEBC /* Thing.swift in Sources */,
+				3AE6301221F2782400D87EF5 /* DictionaryExtension.swift in Sources */,
+				3AE6300C21F25A7600D87EF5 /* Result.swift in Sources */,
+				3AE6300B21F2590C00D87EF5 /* RequestConfiguration.swift in Sources */,
+				3AE6300E21F262D100D87EF5 /* RequestUtil.swift in Sources */,
 				4A5530D120DC3D1900E3CEBC /* Relation.swift in Sources */,
 				4A5530D920DC411300E3CEBC /* Context.swift in Sources */,
 				4A5530D320DC3E6700E3CEBC /* Operation.swift in Sources */,
 				4A5530D520DC3F4A00E3CEBC /* OperationForm.swift in Sources */,
+				3A13EF1A21F10F1400317D69 /* DataExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
